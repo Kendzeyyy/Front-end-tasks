@@ -1,0 +1,26 @@
+html, body{
+ margin: 0;
+ padding: 0;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .images{
+        width: 360px;
+        margin: auto;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+.images{
+        width: 500px;
+        margin: auto;
+}
+
